@@ -4,5 +4,6 @@
 $fruits = array("Apple", "Banana", "Cherry");
 
 foreach ($fruits as $name) {
-    echo strlen($neme) % 2;
+    if (strlen($name) % 2 == 0)
+    echo strlen($name) 
 }
