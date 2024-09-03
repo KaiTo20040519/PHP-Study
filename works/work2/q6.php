@@ -4,6 +4,11 @@
 $fruits = array("Apple", "Banana", "Cherry");
 
 foreach ($fruits as $name) {
-    if (strlen($name) % 2 == 0)
-    echo strlen($name) 
+    if (strlen($name) % 2 == 0) {
+        echo $name . "\n";
+    }
 }
+
+// for ($i = 0; $i < count($fruits); $I++) {
+//     echo "$fruits[$i]\n";
+// }
